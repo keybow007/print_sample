@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
   * TODO Widgetで実装すると面倒なのでカードサイズはここで設定
   *  => 実際のアプリではユーザーが画面から選べるように実装する必要あり
   * */
-  CardSize _selectedCardSize = cardSizes[1]; //0:名刺, 1:遊戯王, 2:デュエマ
+  CardSize _selectedCardSize = cardSizes[0]; //0:名刺, 1:遊戯王, 2:デュエマ
   PaperSize _selectedPaperSize = paperSizes[1];
 
   //カード間の余白(mm）
